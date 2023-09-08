@@ -19,3 +19,8 @@ function findMaximum(arr) {
 const maxNumber = findMaximum(numberArray);
 
 console.log(maxNumber);
+
+// Time Complexity Explanation:
+/* The time complexity of this solution is O(n), where n is the number of elements in the input array.
+This is because we perform a single pass through the input array, copying each element into the new reversed array.
+Since we visit each element once, the time complexity is linear with respect to the input size.*/
